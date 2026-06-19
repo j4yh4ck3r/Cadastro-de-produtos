@@ -1,6 +1,5 @@
 ---
-
-# 📦 Sistema de Cadastro de Produtos
+# Sistema de Cadastro de Produtos
 
 ## 📝 Sobre o projeto
 Este projeto é uma aplicação web para **cadastro e gerenciamento de produtos**, composta por:
@@ -8,7 +7,6 @@ Este projeto é uma aplicação web para **cadastro e gerenciamento de produtos*
 - **Backend** em Node.js + Express, com banco de dados SQLite para persistência  
 
 O sistema permite adicionar, listar, atualizar e excluir produtos de forma simples e prática.
-
 ---
 
 ## 🛠️ Tecnologias utilizadas
