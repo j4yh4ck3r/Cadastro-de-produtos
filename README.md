@@ -56,10 +56,11 @@ README.md
 1. Instale as dependências:
    ```bash
    npm install express cors sqlite3
+   npm install --save-dev nodemon
    ```
 2. Inicie o servidor:
    ```bash
-   node server.js
+   npm start
    ```
 3. O servidor estará rodando em:
    ```
