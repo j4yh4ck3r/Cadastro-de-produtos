@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #divH1 {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #6c63ff;
+    margin: 20px 0;
+}
+
+header #divForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    width: 4%;
+}
+
+header #divForm span {
+    display: flex;
+    color: #6c63ff;
+    font-size: 50px;
+}
+
+header #divForm span:hover {
+    position: relative;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+header #divForm form {
+    background: #2f2f44;
+    border-radius: 12px;
+    color: #f5f5f5;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+header #divForm form #btn {
+    background: #ff6b6b;
+    margin: 10px;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Container da lista */
+#DivUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Lista */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Item da lista (card de produto) */
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2f2f44;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    padding: 1rem;
+    width: 283px;
+    color: #f5f5f5;
+    transition: transform 0.2s ease;
+}
+
+#info {
+    width: 100%;
+}
+
+#divBtn {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+li #divProduto {
+    height: 100%;
+    border: solid 1px #fff;
+}
+
+li #PQ {
+    border: solid 1px #fff;
+    display: flex;
+    align-items: center;
+}
+
+li #PQ p {
+    width: 100%;
+}
+
+li p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+/* Botão dentro dos cards */
+li button {
+    background: #ff6b6b;
+    margin: 10px;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+li button:hover {
+    background: #d94c4c;
+}
